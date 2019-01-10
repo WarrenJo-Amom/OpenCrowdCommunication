@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Drawer Menu View-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_view"
+    android:layout_width="310dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="left"
+    android:background="#ecf0f1"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <!--left line-->
+
+    <!--drawer main view-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:id="@+id/drawer_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbarStyle="outsideOverlay">
+
+            <LinearLayout
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingTop="2dp">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="33dp"
+                        android:layout_marginRight="33dp"
+                        android:layout_marginTop="25dp"
+                        android:focusable="true">
+
+                        <ImageView
+                            android:id="@+id/menu_kt_logo"
+                            android:layout_width="54dp"
+                            android:layout_height="18dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            app:srcCompat="@drawable/pass_brand_mark" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="4dp"
+                            android:layout_toRightOf="@+id/menu_kt_logo"
+                            android:gravity="center"
+                            android:text="menu_kt_title"
+                            android:textSize="17dp" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.66dp"
+                        android:layout_marginLeft="33dp"
+                        android:layout_marginRight="33dp"
+                        android:background="#9FA3A4" />
+
+
+                    <ListView
+                        android:id="@+id/listView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginBottom="15.33dp"
+                        android:layout_marginLeft="28dp"
+                        android:layout_marginRight="33dp"
+                        android:layout_marginTop="8dp"
+                        android:choiceMode="singleChoice"
+                        android:divider="@null"
+                        android:dividerHeight="0dp"
+                        android:footerDividersEnabled="false"
+                        android:headerDividersEnabled="false"
+                        android:splitMotionEvents="false" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="33dp"
+                        android:layout_marginRight="33dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="menu_additional_service_title"
+                            android:textSize="17dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.66dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="#9FA3A4" />
+
+                    </RelativeLayout>
+
+                    <ListView
+                        android:id="@+id/listView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginBottom="15.33dp"
+                        android:layout_marginLeft="28dp"
+                        android:layout_marginRight="33dp"
+                        android:layout_marginTop="8dp"
+                        android:choiceMode="singleChoice"
+                        android:divider="@null"
+                        android:dividerHeight="0dp"
+                        android:splitMotionEvents="false" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginLeft="33dp"
+                        android:layout_marginRight="33dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="menu_cs_title"
+                            android:textSize="17dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.66dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="#9FA3A4" />
+
+                    </RelativeLayout>
+
+                    <ListView
+                        android:id="@+id/listView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginBottom="15.33dp"
+                        android:layout_marginLeft="28dp"
+                        android:layout_marginRight="33dp"
+                        android:layout_marginTop="8dp"
+                        android:choiceMode="singleChoice"
+                        android:divider="@null"
+                        android:dividerHeight="0dp"
+                        android:splitMotionEvents="false" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

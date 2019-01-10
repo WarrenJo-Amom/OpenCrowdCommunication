@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "757658830228",
+    "firebase_url": "https://localbasedcrowdcomm.firebaseio.com",
+    "project_id": "localbasedcrowdcomm",
+    "storage_bucket": "localbasedcrowdcomm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757658830228:android:b4f4ef1dc396d4b7",
+        "android_client_info": {
+          "package_name": "in.amant.opencrowdcommunication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757658830228-249q8nu75bdummn4icm3jf6bi06035hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACFd3KBED0hN8XAjd0OSK3YvI1xD0xvO4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

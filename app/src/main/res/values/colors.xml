@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#209398</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimaryDark">#238E98</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="intro">#238E98</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="alizarin_3A">#EA273A</color>
+    <color name="matterhorn_4A">#4a4a4a</color>
+
+    <color name="spot">#4a4a4a</color>
+
+    <color name="cyan500">#00BCD4</color>
+
+    <color name="chatUI_bg">#0D0D0D</color>
+    <color name="chatUI_msg_right">#808080</color>
+    <color name="chatUI_msg_left">#262626</color>
+
+    <color name="black_overlay">#66000000</color>
+    <!--<color name="chatUI_bg">#0D0D0D</color>-->
+
+    <color name="InnovationBlue">#001A71</color>
+
+</resources>
